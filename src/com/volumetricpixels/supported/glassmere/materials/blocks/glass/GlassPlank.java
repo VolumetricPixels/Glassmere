@@ -17,8 +17,8 @@
  *
 */
 
-package com.volumetricpixels.supported.glassmere.materials.blocks;
+package com.volumetricpixels.supported.glassmere.materials.blocks.glass;
 
-public class PaleStone {
+public class GlassPlank {
 
 }
