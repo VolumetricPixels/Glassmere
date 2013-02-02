@@ -19,10 +19,28 @@
 
 package com.volumetricpixels.supported.glassmere.materials;
 
+import com.volumetricpixels.supported.glassmere.materials.blocks.glass.GlassCobble;
+import com.volumetricpixels.supported.glassmere.materials.blocks.glass.GlassDirt;
+import com.volumetricpixels.supported.glassmere.materials.blocks.glass.GlassLeaf;
+import com.volumetricpixels.supported.glassmere.materials.blocks.glass.GlassLog;
+import com.volumetricpixels.supported.glassmere.materials.blocks.glass.GlassPlank;
+import com.volumetricpixels.supported.glassmere.materials.blocks.glass.GlassStone;
+
 public class GlassmereMaterials {
 	
 	private GlassmereMaterials() {
 		
 	}
+	
+	// * Glass materials *
+	public static final GlassCobble GLASS_COBBLESTONE = new GlassCobble("Glass Cobblestone", 200);
+	public static final GlassDirt GLASS_DIRT = new GlassDirt("Glass Dirt", 201);
+	public static final GlassLeaf GLASS_LEAF = new GlassLeaf("Glass Cobblestone", 202);
+	public static final GlassLog GLASS_LOG = new GlassLog("Glass Cobblestone", 203);
+	public static final GlassPlank GLASS_PLANK = new GlassPlank("Glass Cobblestone", 204);
+	public static final GlassStone GLASS_STONE = new GlassStone("Glass Cobblestone", 205);
+	
+	// * Pale materials *
+	
 
 }

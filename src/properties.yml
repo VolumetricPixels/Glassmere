@@ -1,0 +1,10 @@
+name: Glassmere
+version: 0.0.1
+description: Glassmere for Spout.
+
+author: Kohle
+website: volumetricpixels.com
+depends: ['Vanilla']
+
+main: com.volumetricpixels.supported.glassmere.GlassmerePlugin
+platform: BOTH

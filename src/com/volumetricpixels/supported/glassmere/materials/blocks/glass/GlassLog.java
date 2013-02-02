@@ -19,6 +19,30 @@
 
 package com.volumetricpixels.supported.glassmere.materials.blocks.glass;
 
-public class GlassLog {
+import org.spout.api.inventory.ItemStack;
+import org.spout.vanilla.api.material.TimedCraftable;
+import org.spout.vanilla.plugin.data.tool.ToolLevel;
+import org.spout.vanilla.plugin.data.tool.ToolType;
+import org.spout.vanilla.plugin.material.VanillaMaterials;
+import org.spout.vanilla.plugin.material.block.Solid;
+import org.spout.vanilla.plugin.material.block.component.FurnaceBlock;
+import org.spout.vanilla.plugin.resources.VanillaMaterialModels;
+
+public class GlassLog extends Solid implements TimedCraftable {
+	
+	public GlassLog(String name, int id) {
+		super(name, id, VanillaMaterialModels.BRICK);
+		this.setHardness(1.5F).setResistance(7.0F).addMiningType(ToolType.PICKAXE).setMiningLevel(ToolLevel.WOOD);
+	}
+	
+	@Override
+	public float getCraftTime() {
+		return FurnaceBlock.SMELT_TIME;
+	}
+
+	@Override
+	public ItemStack getResult() {
+		return new ItemStack(VanillaMaterials.ANVIL, 10);
+	}
 
 }
