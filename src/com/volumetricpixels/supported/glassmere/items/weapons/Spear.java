@@ -17,17 +17,17 @@
  *
 */
 
-package com.volumetricpixels.supported.glassmere.items.weapons.spears;
+package com.volumetricpixels.supported.glassmere.items.weapons;
 
 import org.spout.vanilla.plugin.data.tool.ToolLevel;
 import org.spout.vanilla.plugin.data.tool.ToolType;
 import org.spout.vanilla.plugin.material.item.tool.MiningTool;
 
-public class StoneSpear extends MiningTool {
+public class Spear extends MiningTool {
 	
-	public StoneSpear(String name, int id, ToolLevel toolLevel) {
+	public Spear(String name, int id, ToolLevel toolLevel) {
 		super(name, id, toolLevel, ToolType.SWORD);
-		this.setDamage(2 + toolLevel.getDamageBonus());
+		this.setDamage(1 + toolLevel.getDamageBonus());
 	}
 
 }

@@ -20,10 +20,8 @@
 package com.volumetricpixels.supported.glassmere.materials;
 
 import org.spout.vanilla.plugin.data.tool.ToolLevel;
-import com.volumetricpixels.supported.glassmere.items.weapons.spears.DiamondSpear;
-import com.volumetricpixels.supported.glassmere.items.weapons.spears.IronSpear;
-import com.volumetricpixels.supported.glassmere.items.weapons.spears.StoneSpear;
-import com.volumetricpixels.supported.glassmere.items.weapons.spears.WoodenSpear;
+
+import com.volumetricpixels.supported.glassmere.items.weapons.Spear;
 import com.volumetricpixels.supported.glassmere.materials.blocks.glass.GlassCobble;
 import com.volumetricpixels.supported.glassmere.materials.blocks.glass.GlassDirt;
 import com.volumetricpixels.supported.glassmere.materials.blocks.glass.GlassLeaf;
@@ -47,10 +45,10 @@ public class GlassmereMaterials {
 	// * End Glass materials *
 	
 	// * Spears *
-	public static final WoodenSpear WOODEN_SPEAR = new WoodenSpear("Wooden Spear", 268, ToolLevel.WOOD);
-	public static final StoneSpear STONE_SPEAR = new StoneSpear("Stone Spear", 268, ToolLevel.STONE);
-	public static final IronSpear IRON_SPEAR = new IronSpear("Iron Spear", 268, ToolLevel.IRON);
-	public static final DiamondSpear DIAMOND_SPEAR = new DiamondSpear("Diamond Spear", 268, ToolLevel.DIAMOND);
+	public static final Spear WOODEN_SPEAR = new Spear("Wooden Spear", 268, ToolLevel.WOOD);
+	public static final Spear STONE_SPEAR = new Spear("Stone Spear", 268, ToolLevel.STONE);
+	public static final Spear IRON_SPEAR = new Spear("Iron Spear", 268, ToolLevel.IRON);
+	public static final Spear DIAMOND_SPEAR = new Spear("Diamond Spear", 268, ToolLevel.DIAMOND);
 	// * End spears *
 
 }
