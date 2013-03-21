@@ -48,6 +48,7 @@ public class GlassmereMaterials {
 	public static final Spear WOODEN_SPEAR = new Spear("Wooden Spear", 268, ToolLevel.WOOD);
 	public static final Spear STONE_SPEAR = new Spear("Stone Spear", 268, ToolLevel.STONE);
 	public static final Spear IRON_SPEAR = new Spear("Iron Spear", 268, ToolLevel.IRON);
+	public static final Spear GOLD_SPEAR = new Spear("Golden Spear", 268, ToolLevel.GOLD);
 	public static final Spear DIAMOND_SPEAR = new Spear("Diamond Spear", 268, ToolLevel.DIAMOND);
 	// * End spears *
 
